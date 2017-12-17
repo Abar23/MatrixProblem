@@ -1,9 +1,7 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdlib.h>
-//#include <crtdbg.h>
 #include <math.h>
-#include <stdio.h>
-#include <time.h>  
+#include <stdio.h>  
+#include <time.h>
 
 #define FILE_NAME "matrix.txt"
 #define OUTPUT_FILE "output.txt"
@@ -272,6 +270,5 @@ int main(void)
 	output_results(*infoFromFile[0], *infoFromFile[1], mode, average, *mmm[1], *mmm[2], *mmm[0]);
 	destroyDoublePointer(infoFromFile);
 	destroyDoublePointer(mmm);
-	getchar();
 	return 0;
 }
