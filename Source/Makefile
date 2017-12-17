@@ -1,5 +1,5 @@
 all: main
-	gcc -o main main.c
+	gcc -w -o main main.c
 
 clean:
 	rm output.txt

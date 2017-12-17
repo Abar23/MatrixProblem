@@ -270,6 +270,5 @@ int main(void)
 	output_results(*infoFromFile[0], *infoFromFile[1], mode, average, *mmm[1], *mmm[2], *mmm[0]);
 	destroyDoublePointer(infoFromFile);
 	destroyDoublePointer(mmm);
-	getchar();
 	return 0;
 }
