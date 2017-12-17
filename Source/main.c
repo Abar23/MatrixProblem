@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <math.h>
-#include <stdio.h>
-#include <time.h>  
+#include <stdio.h>  
 
 #define FILE_NAME "matrix.txt"
 #define OUTPUT_FILE "output.txt"
